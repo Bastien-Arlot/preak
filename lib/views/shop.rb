@@ -19,7 +19,7 @@ class ShopView
         list.each do |item|
             puts "#{item[0]}.#{item[1]}"
             if (item[7] == "hard drive")
-                puts " Storage" #{item[9]}"
+                puts " Storage #{item[9]}"
             end
             print "\n"
         end
